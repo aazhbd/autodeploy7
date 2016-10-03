@@ -1,6 +1,9 @@
 # Developer's System
 
-It automatically deploys a Ubuntu 15.04 (Vivid Vervet) with all necessary settings and software to develop Python and PHP projects. It will provision the system using vagrant with settings for virtualbox, deploys with ArtWeb. A Linux system with Vivid Vervet and it automatically provisions the system with Apache2, PHP5, MySQL and MySQL related PHP packages, Adminer for database admin, also includes Python and related tools.
+It automatically deploys a Ubuntu 16.04 LTS (Xenial Xerus) with all necessary settings and software to develop Python and PHP7 projects. It will provision the system using vagrant with settings for virtualbox, deploys with ArtWeb.
+ 
+A Linux system with Xenial Xerus and it automatically provisions the system with Apache2, PHP7, MySQL and MySQL related PHP packages, Adminer for database admin, also includes Python and related tools.
+
 
 #### Install prerequisites:
 ---------------------------
@@ -46,4 +49,4 @@ The code is released under MIT License.
 ### Contact
 -----------
 
-AAZ H (aazhbd@yahoo.com)
+Abdullah Al Zakir Hossain (aazhbd@yahoo.com)
