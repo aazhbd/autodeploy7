@@ -8,7 +8,7 @@ A Linux system with Xenial Xerus and it automatically provisions the system with
 #### Install prerequisites:
 ---------------------------
 
-1. Install VirtualBox. It also works with VMWare, Hyper-V etc.
+1. Install VirtualBox. It can with VMWare, Hyper-V etc. by changing settings.
 2. Install Git with commandline tools.
 3. Install Vagrant.
 
