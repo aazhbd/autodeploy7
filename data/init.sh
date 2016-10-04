@@ -24,7 +24,10 @@ cp /var/www/html/apache-conf.txt /etc/apache2/sites-enabled/000-default.conf
 service apache2 restart
 
 echo "---------------------------------------- Installing Database ----------------------------------------"
-apt-get -q -y install mysql-server mysql-client
+sudo debconf-set-selections <<< 'mysql-server mysql-server/root_password password root'
+sudo debconf-set-selections <<< 'mysql-server mysql-server/root_password_again password root'
+sudo apt-get -y install mysql-server
+sudo apt-get -y install mysql-client
 
 
 echo "---------------------------------------- Installing Language Platforms ----------------------------------------"
