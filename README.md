@@ -8,16 +8,16 @@ A Linux system with Xenial Xerus and it automatically provisions the system with
 #### Install prerequisites:
 ---------------------------
 
-1. Install VirtualBox. It can with VMWare, Hyper-V etc. by changing settings.
-2. Install Git with commandline tools.
-3. Install Vagrant.
+1. Install [VirtualBox](https://www.virtualbox.org/wiki/Downloads). It can with VMWare, Hyper-V etc. by changing settings.
+2. Install [Git](https://git-scm.com/) with commandline tools.
+3. Install [Vagrant](https://www.vagrantup.com/).
 
 #### Install Instructions:
 --------------------------
 
 - Open command prompt and enter:``` $ git clone https://github.com/aazhbd/autodeploy7.git ```
 
-- Change directory into the newly created dev_sys folder and enter: ``` $ vagrant up ```
+- Change directory into the newly created autodeploy7 folder and enter: ``` $ vagrant up ```
 
 - Once the system is up and finished provisioning itself, open web browser and set address to: ``` http://localhost:8080/Artweb/webroot/ ```
 
