@@ -15,7 +15,7 @@ A Linux system with Xenial Xerus and it automatically provisions the system with
 #### Install Instructions:
 --------------------------
 
-- Open command prompt and enter:``` $ git clone https://github.com/aazhbd/autodeploy7.git ```
+- Open command prompt and enter:``` $ git clone https://github.com/aazhbd/autodeploy7.git ``` download [zip](https://github.com/aazhbd/autodeploy7/archive/master.zip)
 
 - Change directory into the newly created autodeploy7 folder and enter: ``` $ vagrant up ```
 
