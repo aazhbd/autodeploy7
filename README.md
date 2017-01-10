@@ -15,13 +15,13 @@ A Linux system with Xenial Xerus and it automatically provisions the system with
 #### Install Instructions:
 --------------------------
 
-- Open command prompt or Git bash and enter: ```$ git clone https://github.com/aazhbd/autodeploy7.git``` download [zip](https://github.com/aazhbd/autodeploy7/archive/master.zip)
+- Open command prompt or Git bash and enter: ```$ git clone https://github.com/aazhbd/autodeploy7.git``` or download [zip](https://github.com/aazhbd/autodeploy7/archive/master.zip)
 
-- Change directory into the newly created autodeploy7 folder and enter: ```$ vagrant up```
+- Change directory into the newly created autodeploy7 folder and enter: ```$ vagrant up``` and it will automatically deploy and provision the system
 
 - Once the system is up and finished provisioning itself, open web browser and set address to: ``` http://localhost:8080/Artweb/webroot/ ```
 
-It should show the deails of the PHP5 installation and it contains a link on the top to the default page for ArtWeb framework for PHP5. The project can be worked with in the ```dev_sys/data/ArtWeb``` folder.
+It should show the deails of the PHP5 installation and it contains a link on the top to the default page for ArtWeb framework for PHP5. The project can be worked with in the ```devautodeploy7_sys/data/ArtWeb``` folder.
 
 Also, the link to "ArtWeb - Home" can be opened to open the ArtWeb home page.
 And the link to "Adminer - Home" can be opened to access a mysql admin interface.
