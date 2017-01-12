@@ -5,7 +5,7 @@ It automatically deploys a Ubuntu 16.04 LTS (Xenial Xerus) with all necessary se
 A Linux system with Xenial Xerus and it automatically provisions the system with Apache2, PHP7, MySQL and MySQL related PHP packages, Adminer for database admin, also includes Python and related tools.
 
 
-#### Install prerequisites:
+#### Install Prerequisites:
 ---------------------------
 
 1. Install [VirtualBox](https://www.virtualbox.org/wiki/Downloads). It can with VMWare, Hyper-V etc. by changing settings.
