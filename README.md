@@ -1,4 +1,4 @@
-# Developer's System
+# AutoDeploy7
 
 It automatically deploys a Ubuntu 16.04 LTS (Xenial Xerus) with all necessary settings and software to develop Python and PHP7 projects. It will provision the system using vagrant with settings for virtualbox, deploys with ArtWeb.
  
