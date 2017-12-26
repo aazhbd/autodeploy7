@@ -14,6 +14,7 @@ apt-get -y install rcconf dialog rsync curl traceroute bash-completion nmap mtr-
 echo "---------------------------------------- Installing Apache2 ----------------------------------------"
 apt-get -y install apache2
 a2enmod actions headers rewrite cgi
+a2enmod expires
 a2dismod mpm_event
 a2enmod mpm_prefork
 a2enmod rewrite
